@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class ConcatenateString {
+    public static void main(String[] args) {
+        
+        String name = ("Honey");
+        String color = ("pink");
+        String animal = ("cat");
+        String food = ("pizza");
+        
+        System.out.println("I had a dream that " + name + " ate a ");
+        System.out.println(color + animal + " " + " and said it tasted like " + food + "!");
+    }
+}
